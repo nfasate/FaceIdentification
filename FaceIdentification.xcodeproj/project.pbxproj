@@ -13,9 +13,27 @@
 		AE2237A920DBB735008048AD /* FaceIdentification.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE2237A720DBB735008048AD /* FaceIdentification.xcdatamodeld */; };
 		AE2237AB20DBB735008048AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2237AA20DBB735008048AD /* Assets.xcassets */; };
 		AE2237AE20DBB735008048AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2237AC20DBB735008048AD /* LaunchScreen.storyboard */; };
+		AE2237BB20DBBE1D008048AD /* PersonFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2237BA20DBBE1D008048AD /* PersonFace.swift */; };
+		AE2237BD20DBC537008048AD /* PersonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2237BC20DBC537008048AD /* PersonGroup.swift */; };
+		AE2237BF20DBCAC6008048AD /* GroupPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2237BE20DBCAC6008048AD /* GroupPerson.swift */; };
+		AE877DE120E3C6B0003F4F4C /* DetectFaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE877DE020E3C6B0003F4F4C /* DetectFaceTableViewCell.swift */; };
+		AE90BEB820E21B760094FF8E /* IdentificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE90BEB720E21B760094FF8E /* IdentificationTableViewCell.swift */; };
+		AE90BEBA20E26B2C0094FF8E /* GroupPersonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE90BEB920E26B2C0094FF8E /* GroupPersonCollectionViewCell.swift */; };
+		AE90BEBC20E26B410094FF8E /* PersonFaceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE90BEBB20E26B410094FF8E /* PersonFaceCollectionViewCell.swift */; };
+		AE90BEBE20E281740094FF8E /* FaceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE90BEBD20E281740094FF8E /* FaceCollectionViewCell.swift */; };
+		AE986C3020DCBAEC00F9585D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE986C2F20DCBAEC00F9585D /* HomeViewController.swift */; };
+		AE986C3220DCD1ED00F9585D /* DetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE986C3120DCD1ED00F9585D /* DetectionViewController.swift */; };
+		AE986C3420DCD1FD00F9585D /* IdentificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE986C3320DCD1FD00F9585D /* IdentificationViewController.swift */; };
+		AE986C3620DCD22000F9585D /* SelectImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE986C3520DCD22000F9585D /* SelectImageViewController.swift */; };
+		AE986C3820DCD24600F9585D /* PersonGroupListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE986C3720DCD24600F9585D /* PersonGroupListViewController.swift */; };
+		AE986C3A20DCD26200F9585D /* PersonGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE986C3920DCD26200F9585D /* PersonGroupViewController.swift */; };
+		AE986C3C20DCD27B00F9585D /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE986C3B20DCD27B00F9585D /* PersonViewController.swift */; };
+		AE986C3E20DCD30900F9585D /* AddFacesToPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE986C3D20DCD30900F9585D /* AddFacesToPersonViewController.swift */; };
+		C3F3AF5B8B2AED7DDD188421 /* Pods_FaceIdentification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8077803DE91ABC1C9BEE0313 /* Pods_FaceIdentification.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8077803DE91ABC1C9BEE0313 /* Pods_FaceIdentification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaceIdentification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE22379D20DBB735008048AD /* FaceIdentification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceIdentification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2237A020DBB735008048AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE2237A220DBB735008048AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +42,25 @@
 		AE2237AA20DBB735008048AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE2237AD20DBB735008048AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE2237AF20DBB735008048AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE2237B620DBBA9C008048AD /* FaceIdentification-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaceIdentification-Bridging-Header.h"; sourceTree = "<group>"; };
+		AE2237BA20DBBE1D008048AD /* PersonFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonFace.swift; sourceTree = "<group>"; };
+		AE2237BC20DBC537008048AD /* PersonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonGroup.swift; sourceTree = "<group>"; };
+		AE2237BE20DBCAC6008048AD /* GroupPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupPerson.swift; sourceTree = "<group>"; };
+		AE877DE020E3C6B0003F4F4C /* DetectFaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectFaceTableViewCell.swift; sourceTree = "<group>"; };
+		AE90BEB720E21B760094FF8E /* IdentificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentificationTableViewCell.swift; sourceTree = "<group>"; };
+		AE90BEB920E26B2C0094FF8E /* GroupPersonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupPersonCollectionViewCell.swift; sourceTree = "<group>"; };
+		AE90BEBB20E26B410094FF8E /* PersonFaceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonFaceCollectionViewCell.swift; sourceTree = "<group>"; };
+		AE90BEBD20E281740094FF8E /* FaceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCollectionViewCell.swift; sourceTree = "<group>"; };
+		AE986C2F20DCBAEC00F9585D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AE986C3120DCD1ED00F9585D /* DetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionViewController.swift; sourceTree = "<group>"; };
+		AE986C3320DCD1FD00F9585D /* IdentificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentificationViewController.swift; sourceTree = "<group>"; };
+		AE986C3520DCD22000F9585D /* SelectImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectImageViewController.swift; sourceTree = "<group>"; };
+		AE986C3720DCD24600F9585D /* PersonGroupListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonGroupListViewController.swift; sourceTree = "<group>"; };
+		AE986C3920DCD26200F9585D /* PersonGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonGroupViewController.swift; sourceTree = "<group>"; };
+		AE986C3B20DCD27B00F9585D /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		AE986C3D20DCD30900F9585D /* AddFacesToPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFacesToPersonViewController.swift; sourceTree = "<group>"; };
+		B52139AC756E3FA640940F8E /* Pods-FaceIdentification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceIdentification.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceIdentification/Pods-FaceIdentification.release.xcconfig"; sourceTree = "<group>"; };
+		BDDDDCBF2508644336F6BB29 /* Pods-FaceIdentification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceIdentification.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceIdentification/Pods-FaceIdentification.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +68,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F3AF5B8B2AED7DDD188421 /* Pods_FaceIdentification.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A39278EB9DA3668087BBE4E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8077803DE91ABC1C9BEE0313 /* Pods_FaceIdentification.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE22379420DBB735008048AD = {
 			isa = PBXGroup;
 			children = (
 				AE22379F20DBB735008048AD /* FaceIdentification */,
 				AE22379E20DBB735008048AD /* Products */,
+				C6D09FD5F2FE9194C4D16C8C /* Pods */,
+				A39278EB9DA3668087BBE4E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +106,39 @@
 			children = (
 				AE2237A020DBB735008048AD /* AppDelegate.swift */,
 				AE2237A220DBB735008048AD /* ViewController.swift */,
+				AE986C2F20DCBAEC00F9585D /* HomeViewController.swift */,
+				AE986C3320DCD1FD00F9585D /* IdentificationViewController.swift */,
+				AE986C3120DCD1ED00F9585D /* DetectionViewController.swift */,
+				AE877DE020E3C6B0003F4F4C /* DetectFaceTableViewCell.swift */,
+				AE986C3520DCD22000F9585D /* SelectImageViewController.swift */,
+				AE986C3720DCD24600F9585D /* PersonGroupListViewController.swift */,
+				AE986C3920DCD26200F9585D /* PersonGroupViewController.swift */,
+				AE986C3B20DCD27B00F9585D /* PersonViewController.swift */,
+				AE986C3D20DCD30900F9585D /* AddFacesToPersonViewController.swift */,
+				AE90BEB720E21B760094FF8E /* IdentificationTableViewCell.swift */,
+				AE90BEB920E26B2C0094FF8E /* GroupPersonCollectionViewCell.swift */,
+				AE90BEBB20E26B410094FF8E /* PersonFaceCollectionViewCell.swift */,
+				AE90BEBD20E281740094FF8E /* FaceCollectionViewCell.swift */,
 				AE2237A420DBB735008048AD /* Main.storyboard */,
 				AE2237AA20DBB735008048AD /* Assets.xcassets */,
 				AE2237AC20DBB735008048AD /* LaunchScreen.storyboard */,
 				AE2237AF20DBB735008048AD /* Info.plist */,
 				AE2237A720DBB735008048AD /* FaceIdentification.xcdatamodeld */,
+				AE2237B620DBBA9C008048AD /* FaceIdentification-Bridging-Header.h */,
+				AE2237BA20DBBE1D008048AD /* PersonFace.swift */,
+				AE2237BE20DBCAC6008048AD /* GroupPerson.swift */,
+				AE2237BC20DBC537008048AD /* PersonGroup.swift */,
 			);
 			path = FaceIdentification;
+			sourceTree = "<group>";
+		};
+		C6D09FD5F2FE9194C4D16C8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDDDDCBF2508644336F6BB29 /* Pods-FaceIdentification.debug.xcconfig */,
+				B52139AC756E3FA640940F8E /* Pods-FaceIdentification.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +148,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE2237B220DBB735008048AD /* Build configuration list for PBXNativeTarget "FaceIdentification" */;
 			buildPhases = (
+				4C461986993D30B2643AAAC6 /* [CP] Check Pods Manifest.lock */,
 				AE22379920DBB735008048AD /* Sources */,
 				AE22379A20DBB735008048AD /* Frameworks */,
 				AE22379B20DBB735008048AD /* Resources */,
+				E2AD9C9E36FD62FA0E7B69CC /* [CP] Embed Pods Frameworks */,
+				2D0719F6E2841E107633073A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +176,7 @@
 				TargetAttributes = {
 					AE22379C20DBB735008048AD = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -134,13 +212,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D0719F6E2841E107633073A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceIdentification/Pods-FaceIdentification-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C461986993D30B2643AAAC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FaceIdentification-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2AD9C9E36FD62FA0E7B69CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FaceIdentification/Pods-FaceIdentification-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ProjectOxfordFace/ProjectOxfordFace.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProjectOxfordFace.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceIdentification/Pods-FaceIdentification-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE22379920DBB735008048AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AE2237A320DBB735008048AD /* ViewController.swift in Sources */,
+				AE90BEBE20E281740094FF8E /* FaceCollectionViewCell.swift in Sources */,
+				AE90BEBC20E26B410094FF8E /* PersonFaceCollectionViewCell.swift in Sources */,
+				AE90BEBA20E26B2C0094FF8E /* GroupPersonCollectionViewCell.swift in Sources */,
+				AE877DE120E3C6B0003F4F4C /* DetectFaceTableViewCell.swift in Sources */,
+				AE986C3C20DCD27B00F9585D /* PersonViewController.swift in Sources */,
+				AE986C3820DCD24600F9585D /* PersonGroupListViewController.swift in Sources */,
+				AE2237BB20DBBE1D008048AD /* PersonFace.swift in Sources */,
+				AE986C3420DCD1FD00F9585D /* IdentificationViewController.swift in Sources */,
+				AE2237BF20DBCAC6008048AD /* GroupPerson.swift in Sources */,
+				AE986C3A20DCD26200F9585D /* PersonGroupViewController.swift in Sources */,
 				AE2237A920DBB735008048AD /* FaceIdentification.xcdatamodeld in Sources */,
+				AE90BEB820E21B760094FF8E /* IdentificationTableViewCell.swift in Sources */,
+				AE2237BD20DBC537008048AD /* PersonGroup.swift in Sources */,
+				AE986C3620DCD22000F9585D /* SelectImageViewController.swift in Sources */,
+				AE986C3020DCBAEC00F9585D /* HomeViewController.swift in Sources */,
+				AE986C3E20DCD30900F9585D /* AddFacesToPersonViewController.swift in Sources */,
+				AE986C3220DCD1ED00F9585D /* DetectionViewController.swift in Sources */,
 				AE2237A120DBB735008048AD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,14 +424,19 @@
 		};
 		AE2237B320DBB735008048AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDDDDCBF2508644336F6BB29 /* Pods-FaceIdentification.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6LPTF9P9H;
 				INFOPLIST_FILE = FaceIdentification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iDev.com.FaceIdentification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FaceIdentification/FaceIdentification-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -291,14 +444,18 @@
 		};
 		AE2237B420DBB735008048AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B52139AC756E3FA640940F8E /* Pods-FaceIdentification.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6LPTF9P9H;
 				INFOPLIST_FILE = FaceIdentification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iDev.com.FaceIdentification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FaceIdentification/FaceIdentification-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

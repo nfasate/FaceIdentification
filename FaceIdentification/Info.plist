@@ -41,5 +41,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Face API uses camera for capturing images</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Face API uses photo library for images</string>
 </dict>
 </plist>
