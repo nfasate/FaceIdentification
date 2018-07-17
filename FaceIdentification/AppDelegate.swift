@@ -4,7 +4,10 @@
 //
 //  Created by NILESH_iOS on 21/06/18.
 //  Copyright © 2018 iDev. All rights reserved.
-//
+//  https://gist.github.com/akshay1188/4749253#file-whatsapp-image-compression
+//https://forum.realm.io/t/saving-retrieving-images-in-realm-swift-4/548/2
+//https://blog.contus.com/how-whatsapp-works-technically-and-how-to-build-an-app-similar-to-it/
+//https://realm.io/docs/swift/latest/#models
 
 import UIKit
 import CoreData
