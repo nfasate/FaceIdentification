@@ -303,3 +303,24 @@ class HEDocDirectory: NSObject
     }
 }
 
+//// Here save image to Doc dir
+//heDocDir.saveImageToPath(imageData, name: name, withCompletion: { (status, path) in
+//    if status == true
+//    {
+//        //Only when the Heartbeat status is to be found
+//        // 1 snapshot will be taken when heart beat status is checked else its 5
+//        if self.numberOfScreenShots == 1
+//        {
+//            UserDefault.sharedInstance.setIsCameraWorkingForHBR(true)
+//            if Macros.Constants.taskGroupForHeartBeat != nil
+//            {
+//                Macros.Constants.taskGroupForHeartBeat.leave()
+//            }
+//        }
+//        
+//        // First saving the image to photo library
+//        HEPhotoLibraryHelper.saveImagesToPhotoLibrary(UIImage(data: imageData)!)
+//        //print("Yay image \(name) - has been saved to path - \(path)") // Now send this image to server
+//    }
+//}
+
